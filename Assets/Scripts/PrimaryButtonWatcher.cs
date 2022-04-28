@@ -44,7 +44,7 @@ public class PrimaryButtonWatcher : MonoBehaviour
     private void InputDevices_deviceConnected(InputDevice device)
     {
         bool discardedValue;
-        if (device.TryGetFeatureValue(CommonUsages.primaryButton, out discardedValue))
+        if (device.TryGetFeatureValue(CommonUsages.triggerButton, out discardedValue))
         {
             Debug.Log("设备池+:" + device.name);
             devicesWithPrimaryButton.Add(device); // 添加任何具有主按钮的设备。

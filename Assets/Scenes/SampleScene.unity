@@ -626,7 +626,6 @@ GameObject:
   - component: {fileID: 172008655}
   - component: {fileID: 172008654}
   - component: {fileID: 172008653}
-  - component: {fileID: 172008660}
   m_Layer: 0
   m_Name: CubeTest (2)
   m_TagString: Untagged
@@ -856,22 +855,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 172008651}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &172008660
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 172008651}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35f7683cdcd2c96478fbc2bfa570712f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  watcher: {fileID: 0}
-  IsPressed: 0
-  rotationAngle: {x: 45, y: 45, z: 45}
-  rotationDuration: 0.25
 --- !u!1 &181397707
 GameObject:
   m_ObjectHideFlags: 0
